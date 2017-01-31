@@ -17,6 +17,7 @@ class Deploy:
         #               % self._requirements)
         #     cmd = [os.path.join(self._pkg_venv, self._venv_pip),
         #            'install'] + self._requirements
+        # test
 
         if os.path.isfile(self._requirements_file):
             # Pip install
